@@ -1,9 +1,9 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.23",
 	"features": {
 		"ghcr.io/devcontainers-extra/features/kind:1": {}
 	},
 	"postCreateCommand": {
-    "install-pkl": "curl -L -o ~/.local/bin/pkl 'https://github.com/apple/pkl/releases/download/0.30.2/pkl-linux-amd64' && chmod +x ~/.local/bin/pkl"
-  }
+    	"install-pkl": "curl -L -o ~/.local/bin/pkl 'https://github.com/apple/pkl/releases/download/0.30.2/pkl-linux-amd64' && chmod +x ~/.local/bin/pkl"
+  	}
 }
