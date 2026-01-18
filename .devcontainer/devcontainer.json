@@ -5,6 +5,6 @@
 		"ghcr.io/devcontainers-extra/features/kind:1": {}
 	},
 	"postCreateCommand": {
-    	"install-pkl": "curl -L -o ~/.local/bin/pkl 'https://github.com/apple/pkl/releases/download/0.30.2/pkl-alpine-linux-amd64' && chmod +x ~/.local/bin/pkl"
+    	"install-pkl": "sudo curl -L -o /usr/local/bin/pkl 'https://github.com/apple/pkl/releases/download/0.30.2/pkl-alpine-linux-amd64' && sudo chmod +x /usr/local/bin/pkl"
   	}
 }
