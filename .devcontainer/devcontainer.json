@@ -2,7 +2,8 @@
 	"name": "kind",
 	"image": "mcr.microsoft.com/devcontainers/base:alpine",
 	"features": {
-		"ghcr.io/devcontainers-extra/features/kind:1": {}
+		"ghcr.io/devcontainers-extra/features/kind:1": {},
+		"ghcr.io/cirolosapio/devcontainers-features/alpine-kubectl:0": {}
 	},
 	"postCreateCommand": {
     	"install-pkl": "sudo curl -L -o /usr/local/bin/pkl 'https://github.com/apple/pkl/releases/download/0.30.2/pkl-alpine-linux-amd64' && sudo chmod +x /usr/local/bin/pkl"
